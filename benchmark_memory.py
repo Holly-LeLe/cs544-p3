@@ -2,7 +2,7 @@ import csv
 import subprocess
 import re
 
-ROWS = 300000
+ROWS = 1000000
 CACHE_SIZES = range(10000, 100001, 10000)
 
 with open("memory.csv", "w", newline="") as f:

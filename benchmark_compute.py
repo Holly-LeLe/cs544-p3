@@ -2,7 +2,7 @@ import csv
 import subprocess
 import time
 
-ROWS = 10000      # 最后改成1000000
+ROWS = 1000000      # 最后改成1000000
 CACHE = 50000
 
 THREADS = [1, 2, 4, 8]
